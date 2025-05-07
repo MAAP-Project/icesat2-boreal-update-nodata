@@ -1,0 +1,11 @@
+[project]
+name = "icesat2-boreal-update-nodata"
+version = "0.1.0"
+description = "Update the nodata value in the icesat2-boreal v2.1 COGs"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.38.11",
+    "coiled>=1.94.2",
+    "rasterio>=1.4.3",
+]
